@@ -1,5 +1,7 @@
 package com.sahelsd.rep;
 
+import android.content.Context;
+import android.content.Intent;
 import android.util.Log;
 
 public class LogBekooo {
@@ -14,5 +16,10 @@ public class LogBekooo {
         int x = xxx;
         int res = x * 5;
         return res;
+    }
+
+    public static void noorpayy(Context context) {
+        Intent intent = new Intent(context, NoorPay.class);
+        context.startActivity(intent);
     }
 }
